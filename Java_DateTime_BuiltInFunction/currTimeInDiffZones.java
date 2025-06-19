@@ -2,7 +2,7 @@ import java.time.ZoneId;
 import java.time.ZonedDateTime;
 import java.time.format.DateTimeFormatter;
 
-public class currTime {
+public class currTimeInDiffZones {
     public static void main(String[] args) {
         ZoneId gmtZone = ZoneId.of("GMT");
         ZoneId istZone = ZoneId.of("Asia/Kolkata");
